@@ -10,7 +10,7 @@
 }
 
 body {
-    background: lightblue url("/img/desk.jpg");
+    background: rgb(63, 78, 78);
     background-size: cover;
 }
 
