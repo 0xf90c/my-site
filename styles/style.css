@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: lightblue url("/img/desk.jpg");
+    background-size: cover;
+}
+
+.main-div {
+    position: fixed;
+    width: 450px;
+    margin: 230px 412px;
+    background-color: rgb(52, 57, 65);
+    border: 3px solid silver;
+    border-radius: 8px;
+}
+span {
+    color: cornflowerblue;
+}
+.logo-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    background-color: darkslategrey;
+}
+.logo-div h2 {
+    font-family: "PT Sans", sans-serif;
+    color: beige;
+}
+img {
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.body-div {
+    padding: 8px;
+}
+.t_name {
+    font-family: "PT Sans", sans-serif;
+    color: lightgreen;
+}
+.t_title {
+    padding: 15px;
+    font-family: "Jersey 15", sans-serif;
+    color: chocolate;
+    font-size: 65px;
+}
+.t_desc {
+    padding: 8px 15px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+    color: dodgerblue;
+}
+.contact {
+    padding: 8px 15px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+    color: cadetblue;
+}
+.links a {
+    padding: 8px 15px;
+    color: gold;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 20px;
+}
